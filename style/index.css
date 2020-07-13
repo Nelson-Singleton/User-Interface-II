@@ -125,3 +125,131 @@ footer p{
     margin: 1% 0%;
     
 }
+
+button {
+    width: 5%;
+}
+
+
+/*Style for max-width 800px*/
+
+
+
+@media(max-width: 800px){
+
+header{
+    text-align: center;
+}
+
+.links{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}    
+header div nav{
+    flex-direction: column;
+    width: 25%;        
+}   
+
+
+#mainsection{
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#mainsection div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#maintext{
+    display: flex;
+    justify-content: center;
+}
+
+maintext div{
+    width: 90%;
+}
+h1, h2, h3, h4{
+    width: 100%;
+    text-align: center;
+}
+#projectimages{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#projectimages div{
+    width: 47%;
+    text-align: center;
+    padding-top: 8%;
+    
+} 
+}
+
+
+/*Style for max-width 500px*/
+
+
+
+@media(max-width: 500px){
+    header{
+        text-align: center;
+    }
+    
+    .links{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }    
+    header div nav{
+        flex-direction: column;
+        width: 25%;        
+    }   
+    
+    
+    #mainsection{
+        flex-direction: column;
+        text-align: center;
+        
+    }
+      
+    #mainsection div h3{
+        border: 1px solid black;
+        width: 26%;
+        font-size: 100%;
+        text-align: center;
+    }
+    #mainsection div{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    #maintext{
+        display: flex;
+        justify-content: center;
+    }
+    maintext div{
+        width: 90%;
+    }
+    h1, h2, h3, h4{
+        width: 100%;
+        text-align: center;
+    }
+    #projectimages{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #projectimages div{
+        width: 47%;
+        text-align: center;
+        padding-top: 8%;
+        
+    } 
+}

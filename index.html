@@ -8,9 +8,25 @@
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
     </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
+
+<!-- For accessibility, I made sure that the page
+language was in English, and that all images
+have alt descriptions that can be read by a 
+screenreader. 
+
+I also converted my contact me link into a button
+which can be selected with the tab button on
+a keyboard, but it requires JS to make the button
+link to the contact.html page. Once we cover JS,
+I will add this functionality as well.
+
+<button onclick="document.location='contact.html'">Contact Me</button>
+
+-->
 
 <header>
     <div>
@@ -36,7 +52,7 @@
 
 <section id="mainsection">
     <div>
-        <img src="https://images.unsplash.com/photo-1593294353764-f76527c3b853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQ3MzMyfQ&auto=format&fit=crop&w=1349&q=80">
+        <img alt="Hand holding a lit sparkler with a green background" src="https://images.unsplash.com/photo-1593294353764-f76527c3b853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQ3MzMyfQ&auto=format&fit=crop&w=1349&q=80">
 
     </div>
 
@@ -45,9 +61,11 @@
             Nelson Singleton
         </h2>
         <br>
-        <h3>
+        
+        <h3> 
             My Projects
         </h3>
+        
         <h4>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -73,28 +91,28 @@
 <section id="projectimages">
     <div>
         <!-- <img src="https://images.unsplash.com/photo-1593294353764-f76527c3b853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQ3MzMyfQ&auto=format&fit=crop&w=1349&q=80"> -->
-            <a href="https://codepen.io/Nelsons/pen/eYJMLbo"><img src="learninghowtocode.png"></a>
+            <a href="https://codepen.io/Nelsons/pen/eYJMLbo"><img alt="Learning to code project link and sample picture" src="learninghowtocode.png"></a>
         <h3>
             <p>Learning how to code!</p>
         </h3>
     </div>
     <div>
         <!-- <img src="https://images.unsplash.com/photo-1593294353764-f76527c3b853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQ3MzMyfQ&auto=format&fit=crop&w=1349&q=80"> -->
-            <a href="https://codepen.io/Nelsons/pen/GRodzKW"><img src="flexboxpractice.png"></a>
+            <a href="https://codepen.io/Nelsons/pen/GRodzKW"><img alt="Flexbox project link and flexbox picture example" src="flexboxpractice.png"></a>
         <h3>
             <p>Flexbox</p>
         </h3>
     </div>
     <div>
         <!-- <img src="https://images.unsplash.com/photo-1593294353764-f76527c3b853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQ3MzMyfQ&auto=format&fit=crop&w=1349&q=80"> -->
-            <a href="https://codepen.io/Nelsons/pen/dyGeLKy"><img src="csspractice.png"></a>
+            <a href="https://codepen.io/Nelsons/pen/dyGeLKy"><img alt="Yellow and blue CSS sample portfolio page" src="csspractice.png"></a>
         <h3>
             <p>CSS Practice</p>
         </h3>
     </div>
     <div>
         <!-- <img src="https://images.unsplash.com/photo-1593294353764-f76527c3b853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQ3MzMyfQ&auto=format&fit=crop&w=1349&q=80"> -->
-            <a href="https://codepen.io/Nelsons/pen/NWxYGjN"><img src="sweeteatsbakery.png"></a>
+            <a href="https://codepen.io/Nelsons/pen/NWxYGjN"><img alt="White and pink bakery sample page and project link" src="sweeteatsbakery.png"></a>
         <h3>
             <p>Sweet Eats Bakery</p>
         </h3>
@@ -134,7 +152,7 @@
         </div>
         <div>
         <p>    
-            <a href="contact.html"> Contact Me</a>
+            <button type ="button" > Contact Me</button>
         </p>
         </div>
     </footer>
